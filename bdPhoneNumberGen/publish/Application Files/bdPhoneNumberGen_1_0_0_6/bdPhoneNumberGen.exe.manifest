@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="bdPhoneNumberGen.exe" version="1.0.0.6" publicKeyToken="e73a932702b27c7f" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="phone.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="bdPhoneNumberGen" version="1.0.0.0" publicKeyToken="E73A932702B27C7F" language="neutral" processorArchitecture="msil" />
+    <commandLine file="bdPhoneNumberGen.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="bdPhoneNumberGen.exe" size="93632">
+      <assemblyIdentity name="bdPhoneNumberGen" version="1.0.0.0" publicKeyToken="E73A932702B27C7F" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bwCu4OWCHu/5bC+tEg2tCcIkZsg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0KqAOKkutD3vL/+79BFLAmNhF8U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>e+N444LkPq6E8VZ7NXC8qaZ+dpc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>zHJTa4Q4TshHm5c0uUfc6IXvXTE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="bdPhoneNumberGen.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>V4WyfI7Afij77ZC4Fb71+C3XBqM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="phone.ico" size="34904">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>yxJRe63eDRESEyYf/Q1FLw6Mb+w=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DADDY-THEPRINCE\mdhan" issuerKeyHash="3a8fd6bfae67bdf6a8f4c99e62bc7694e50f2e25" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>XJYtA6dV3L3Ib05rv7m9hatwEGo=</DigestValue></Reference></SignedInfo><SignatureValue>R0wYDt/Wl95oL5bUX8vPMQjvvHxnX3hVcVRME+gSTDcugRkxYa1GE4qP97WerSex5foYuD/sPuLv57QJCNNc1vsNA+hMiko39OHi7OYnjDtbecxzLj2FKGhW0kILX43HaJ/sL6oKRH8TeQzu3qL5bn3AX4t6fn+TsKHktbNn5wI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>smfA6HKy5hOI7P2ji/oQCHRQKFGI5qBCJaoeOPu4e5T4o+CC/T7hypxwtA/XdKhJcmR5J/l/lVEYO8ofPRoBvme35I9nEt3vDvDh0JG2fNPvP1tZW53ZDgTFW3qOiOKfNjjSLaJbH4x0h+yExWnYro48vJtPNL1cj2lxeFENhvk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6a1070ab85bdb9bf6b4e6fc8bddc55a7032d965c" Description="" Url=""><as:assemblyIdentity name="bdPhoneNumberGen.exe" version="1.0.0.6" publicKeyToken="e73a932702b27c7f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DADDY-THEPRINCE\mdhan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hBII5JLkAwD60UDYRG50Kf634Lc=</DigestValue></Reference></SignedInfo><SignatureValue>aq0jTFc0RLw3/4mum1S3f6H/jzhmEcAEFGxHEqzxZo+ZVPmiiLBhwbo6JEclm7IPRcf2oVWtFR+Iq9l+SZRRWIhxPqvyFfFQko7c4OYekSBemlMFGFm9sm1cdIRDbexfv7xCicYfGKqQ4DZmuDdafpStgH+NSB0q9hne2jVTA2c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>smfA6HKy5hOI7P2ji/oQCHRQKFGI5qBCJaoeOPu4e5T4o+CC/T7hypxwtA/XdKhJcmR5J/l/lVEYO8ofPRoBvme35I9nEt3vDvDh0JG2fNPvP1tZW53ZDgTFW3qOiOKfNjjSLaJbH4x0h+yExWnYro48vJtPNL1cj2lxeFENhvk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZ/Ik+criF4tJtWio7GkKEDANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABBAEQARABZAC0AVABIAEUAUABSAEkATgBDAEUAXABtAGQAaABhAG4wHhcNMTkwODI1MTI1MzIyWhcNMjAwODI0MTg1MzIyWjA1MTMwMQYDVQQDHioARABBAEQARABZAC0AVABIAEUAUABSAEkATgBDAEUAXABtAGQAaABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALJnwOhysuYTiOz9o4v6EAh0UChRiOagQiWqHjj7uHuU+KPggv0+4cqccLQP13SoSXJkeSf5f5VRGDvKHz0aAb5nt+SPZxLd7w7w4dCRtnzT7z9bWVud2Q4ExVt6jojinzY40i2iWx+MdIfshMVp2K6OPLybTzS9XI9pcXhRDYb5AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAci2TYB72yh8Juc4Z+nH4vWXM25YxXZPCylBLCmvyrWaZcJVj0AWalI3wIUp3t39G6v/J5uuTSoww4dPJfd3jkQ0uhK/+Qbg9u576OTAWbz/JiFPlUz+QlNv/xg+if147C0A6TFIMRuAX76PjXZ/jkxnZcdJGjJPCuvN6HygWaw4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
